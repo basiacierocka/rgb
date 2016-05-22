@@ -6,6 +6,7 @@
     <td>
         <%= link_to "Edit", edit_user_path(user.id), class: 'btn btn-success' %>
         <%= link_to "Delete", user_path(user.id), method: :delete, class: 'btn btn-success' %>
+        <%= link_to "Cars", user_cars_path(user.id), class: 'btn btn-success' %>
     </td>
     
 </tr>
