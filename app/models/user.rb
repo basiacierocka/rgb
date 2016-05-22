@@ -3,4 +3,3 @@ class User < ActiveRecord::Base
     validates :age, numericality: true
     has_many :cars
 end
-
